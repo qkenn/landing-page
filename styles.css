@@ -173,7 +173,7 @@ header {
 
 .news {
   max-width: 144rem;
-  margin: 10rem auto;
+  margin: 15rem auto;
 }
 
 .news-container {
@@ -239,11 +239,8 @@ header {
 
 /* CTA SECTION START */
 
-.cta {
-  color: hsl(0, 0%, 100%);
-}
-
 .cta-container {
+  color: hsl(0, 0%, 100%);
   max-width: 144rem;
   margin: 10rem auto;
   background: rgb(0, 58, 105);
@@ -265,3 +262,17 @@ header {
 }
 
 /* CTA SECTION END */
+
+/* FOOTER START */
+
+.footer {
+  color: hsl(0, 0%, 100%);
+  background: hsl(0, 0%, 12%);
+  text-align: center;
+}
+
+.footer-text {
+  margin: 0;
+  padding: 1.5em 0;
+  font-size: 2rem;
+}
