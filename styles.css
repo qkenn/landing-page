@@ -1,0 +1,22 @@
+/* GLOBAL STYLES START */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'idealistSans';
+  src: url('./assets/fonts/idealist-sans.light.ttf') format('truetype'),
+    url('./assets/fonts/idealist-sans.light.woff') format('woff');
+}
+
+body {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: 'idealistSans';
+}
+
+/* GLOBAL STYLES START */
