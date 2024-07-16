@@ -1,5 +1,9 @@
 /* GLOBAL STYLES START */
 
+:root {
+  font-size: 62.5%;
+}
+
 *,
 *::before,
 *::after {
@@ -17,6 +21,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'idealistSans';
+  font-size: 1.6rem;
 }
 
-/* GLOBAL STYLES START */
+/* GLOBAL STYLES END */
+
+/* HEADER START */
+
+header {
+  background-color: hsl(261, 83%, 23%);
+  color: hsl(0, 0%, 100%);
+}
+
+.header-container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
