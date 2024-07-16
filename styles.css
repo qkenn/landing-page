@@ -150,8 +150,6 @@ header {
 }
 
 .btn {
-  color: inherit;
-  font-family: inherit;
   padding: 0.5em 1.5em;
   background-color: hsl(0, 70%, 65%);
   border: none;
@@ -161,7 +159,14 @@ header {
   transition: background 0.5s ease-in-out;
 }
 
-.btn:hover {
+.btn-link {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-family: inherit;
+}
+
+.btn:hover,
+.btn:focus {
   background: hsl(0, 85%, 55%);
 }
 
