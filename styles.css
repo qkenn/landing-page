@@ -10,11 +10,6 @@
   box-sizing: border-box;
 }
 
-main {
-  max-width: 144rem;
-  margin: 10rem auto;
-}
-
 .section-title {
   font-size: 5rem;
   text-align: center;
@@ -176,6 +171,11 @@ header {
 
 /* NEWS SECTION START */
 
+.news {
+  max-width: 144rem;
+  margin: 10rem auto;
+}
+
 .news-container {
   display: flex;
   gap: 10rem;
@@ -211,3 +211,28 @@ header {
   font-weight: 500;
   font-style: italic;
 }
+
+/* NEWS SECTION END */
+
+/* TESTIMONIAL SECTION START */
+
+.testimonials {
+  background: hsl(0, 0%, 91%);
+  padding: 20rem 0;
+}
+
+.quote {
+  max-width: 144rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 3rem;
+}
+
+.quote-author {
+  font-size: 2rem;
+}
+
+/* TESTIMONIAL SECTION END */
