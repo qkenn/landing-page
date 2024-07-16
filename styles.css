@@ -10,17 +10,80 @@
   box-sizing: border-box;
 }
 
+/* CUSTOM FONT START */
+
+/* 400 normal */
 @font-face {
-  font-family: 'idealistSans';
-  src: url('./assets/fonts/idealist-sans.light.ttf') format('truetype'),
-    url('./assets/fonts/idealist-sans.light.woff') format('woff');
+  font-family: 'ArgentumNovus';
+  src: url('./assets/fonts/ArgentumNovus-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
 }
+
+/* 400 italic */
+@font-face {
+  font-family: 'ArgentumNovus';
+  src: url('./assets/fonts/ArgentumNovus-Italic.ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* 500 normal */
+@font-face {
+  font-family: 'ArgentumNovus';
+  src: url('./assets/fonts/ArgentumNovus-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* 500 italic */
+@font-face {
+  font-family: 'ArgentumNovus';
+  src: url('./assets/fonts/ArgentumNovus-MediumItalic.ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* 700 normal */
+@font-face {
+  font-family: 'ArgentumNovus';
+  src: url('./assets/fonts/ArgentumNovus-SemiBold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 700 italic */
+@font-face {
+  font-family: 'ArgentumNovus';
+  src: url('./assets/fonts/ArgentumNovus-SemiBoldItalic.ttf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* 300 normal */
+@font-face {
+  font-family: 'ArgentumNovus';
+  src: url('./assets/fonts/ArgentumNovus-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* 300 italic */
+@font-face {
+  font-family: 'ArgentumNovus';
+  src: url('./assets/fonts/ArgentumNovus-LightItalic.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* CUSTOM FONT END */
 
 body {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
-  font-family: 'idealistSans';
+  font-family: 'ArgentumNovus';
+  font-weight: 400;
   font-size: 1.6rem;
 }
 
