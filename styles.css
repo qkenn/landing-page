@@ -149,7 +149,7 @@ header {
   margin: 0.3em 0;
 }
 
-.hero-btn {
+.btn {
   color: inherit;
   font-family: inherit;
   padding: 0.5em 1.5em;
@@ -161,7 +161,7 @@ header {
   transition: background 0.5s ease-in-out;
 }
 
-.hero-btn:hover {
+.btn:hover {
   background: hsl(0, 85%, 55%);
 }
 
@@ -236,3 +236,32 @@ header {
 }
 
 /* TESTIMONIAL SECTION END */
+
+/* CTA SECTION START */
+
+.cta {
+  color: hsl(0, 0%, 100%);
+}
+
+.cta-container {
+  max-width: 144rem;
+  margin: 10rem auto;
+  background: rgb(0, 58, 105);
+  display: flex;
+  align-items: center;
+  padding: 2em 10em;
+  justify-content: space-between;
+  border-radius: 3.5rem;
+}
+
+.cta-text {
+  max-width: 70rem;
+}
+
+.cta-title {
+  font-size: 3rem;
+  line-height: 1.25;
+  margin: 0.5em 0;
+}
+
+/* CTA SECTION END */
