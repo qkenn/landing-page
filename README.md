@@ -1,6 +1,6 @@
-# Hollow Knight Landing Page
+# Landing Page
 
-A solution project for The Odin Project's landing page exercise.
+Simple landing page for [Hollow Knight](https://en.wikipedia.org/wiki/Hollow_Knight)
 
-> This project is a mere educational attempt and is not affiliated with Team Cherry™ or any of its subsidiaries.
-> All copyrighted content, including but not limited to images, logos, and intellectual property, are the sole property of their respective owners and are used solely for educational and illustrative purposes.
+> This website is not affiliated with Team Cherry™ or any of its subsidiaries.
+> All copyrighted content and intellectual property used solely for educational and illustrative purposes.
